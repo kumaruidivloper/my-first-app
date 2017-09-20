@@ -1,0 +1,8 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<input type="text" [(ngModel)]="model.name">
+<button name="add" (click)="AddName()">Add</button>
+
+
+
+<div *ngFor="let employees of employee; let i=index">{{i}} {{employees.name}}</div>
+
